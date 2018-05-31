@@ -9,10 +9,53 @@ body {
     color: #333;
     line-height: 1.5em;
     padding: 25px;
+	background-color: #1e232e; 
 }
-
+h1{
+	text-align: center;
+}
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
+h2{
+	text-align: center;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+p{
+	color: white;
+}
+nav{
+	
+      box-shadow: 0px 6px 18px grey;
+	    display: flex;
+	background-color: white !important;
+}
+nav #hoofd{
+	text-align: center;
+	
+}
+nav #link{
 
-/* Voeg jouw css hieraan toe */
+}
+section{
+	    padding-top: 1%;
+}
+aside, figure{
+	float: left;
+}
+figure{
+	    width: 62%;
+}
+#iconen img{
+	width: 5%;
+}
+aside{
+	width: 25%;
+    border-right: solid 1px white;
+    margin-right: 5%;
+}
+
+#kleuren img{
+	margin: 2%;
+}
